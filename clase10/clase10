@@ -1,0 +1,7 @@
+1) SELECT nombre FROM usuario
+2) SELECT telefono FROM usuario WHERE saldo <= 300;
+3) SELECT usuario FROM usuario WHERE nivel = 2;
+4) SELECT nombre, telefono FROM usuario WHERE marca IN ('NOKIA', 'BLACKBERRY', 'SONY');
+5) SELECT nombre, telefono FROM usuario WHERE marca IN ('LG', 'SAMSUNG', 'MOTOROLA');
+6) SELECT email FROM usuario WHERE email LIKE '%gmail.com';
+7) SELECT nombre, fechaNacimiento, MAX(saldo) FROM usuario WHERE TIMESTAMPDIFF(YEAR, fechaNacimiento, CURDATE()) > 30;
